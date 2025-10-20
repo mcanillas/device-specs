@@ -56,3 +56,10 @@
   transition: 500ms;
 }
 
+.cores-pic {
+  height: 200px;
+}
+
+.rtx-pic {
+  height: 300px;
+}
