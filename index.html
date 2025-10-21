@@ -11,153 +11,162 @@
 </head>
 
 <body id="top">
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <nav class="navbar bg-body-tertiary fixed-top custom-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.nvidia.com/en-us/" target="blank">
+      <a class="navbar-brand logo-nvidia" href="https://www.nvidia.com/en-us/" target="blank">
         <img src="nvidia-logo.png" alt="nvidia-logo" width="120" height="45">
       </a>
-      <a class="navbar-brand">
+      <a class="navbar-brand logo-mc">
         <img src="mclogo.png" alt="mclogo" width="40" height="30">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </a>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-lg-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#top">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Specs">Specs</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Specs">Specs</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="hero-overlay"></div>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-8">
-          <h1 class="display-4">NVIDIA RTX 5090</h1>
-          <p class="lead">Level Up Your Gaming Experience</p>
+  <section class="main-content text-white">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 nvidia-mainlogo">NVIDIA RTX 5090</h1>
+            <p class="lead">Level Up Your Gaming Experience</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="row">
-    <div class="col mx-5 p-5">
-      <hr class="border-1 opacity-75 my-5">
-    </div>
-  </div>
+    <hr class="border-1 opacity-75 my-5">
 
-
-  <section id="Specs">
-    <div class="row mx-5 text-center">
-      <div class="col-lg-5 md-12 container border border-3 rounded-3 p-3 me-3 mb-5">
-        <img src="rtx5090.png" class="rtx-pic img-fluid rounded-3" alt="rtx5090">
-        <h5 class="mt-4">RTX 5090</h5>
-        <p>Powerful graphics card for gaming and professional work</p>
-        <ul class="list-unstyled small">
-          <li>VRAM: 32GB</li>
-          <li>Clock Speed: 2.5GHz</li>
-          <li>TDP: 575W</li>
-        </ul>
+    <section id="Specs">
+      <div class="row mx-5 text-center">
+        <div class="glass-1 col-lg-5 md-12 container p-3 me-3 mb-5">
+          <img src="rtx5090.png" class="rtx-pic img-fluid rounded-3" alt="rtx5090">
+          <h3 class="mt-4 mb-5 spec-5090">RTX 5090</h5>
+          <p>Powerful graphics card for gaming and professional work</p>
+          <ul class="list-unstyled small">
+            <li>VRAM: 32GB</li>
+            <li>Clock Speed: 2.5GHz</li>
+            <li>TDP: 575W</li>
+          </ul>
+        </div>
+        <div class="glass-1 col-lg-5 md-12 container p-3 mb-5">
+          <img src="cores.png" class="cores-pic img-fluid rounded-3 mt-5 mb-5" alt="cores">
+          <h3 class="mt-4 mb-5 spec-core">Blackwell Core</h5>
+          <p>Advanced Cores for Full Ray Tracing</p>
+          <ul class="list-unstyled small">
+            <li>CUDA Cores: 21,760</li>
+            <li>Tensor Cores: 5th-Gen</li>
+            <li>Ray Tracing Cores: 4th-Gen</li>
+          </ul>
+        </div>
       </div>
-      <div class="col-lg-5 md-12 container border border-3 rounded-3 p-3 mb-5">
-        <img src="cores.png" class="cores-pic img-fluid rounded-3 mt-5 mb-5" alt="cores">
-        <h5 class="mt-4">Blackwell Core</h5>
-        <p>Advanced Cores for Full Ray Tracing</p>
-        <ul class="list-unstyled small">
-          <li>CUDA Cores: 21,760</li>
-          <li>Tensor Cores: 5th-Gen</li>
-          <li>Ray Tracing Cores: 4th-Gen</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <h6 class="display-6 my-5 mx-5 text-center">
-      Powered by DLSS 4 and NVIDIA Reflex for Ultimate Performance and Responsiveness
-    </h6>
-    <img src="dlss4.png" class="dlss-pic img-fluid d-block mx-auto mb-5" alt="dlss4">
+    <section>
+      <h6 class="display-6 my-5 mx-5 text-center">
+        Powered by DLSS 4 and NVIDIA Reflex for Ultimate Performance and Responsiveness
+      </h6>
+      <img src="dlss4.png" class="dlss-pic img-fluid d-block mx-auto" alt="dlss4">
+      <div class="row">
+        <div class="col">
+          <div class="container">
+            <p class="dlss-desc mx-auto mb-5 px-3 mt-5">
+              DLSS represents an innovative collection of AI-powered graphics technologies designed to increase frame
+              rates,
+              minimize input delay, and enhance visual fidelity. The newest version, DLSS 4, introduces advanced
+              multi-frame
+              generation capabilities alongside improved ray tracing reconstruction and upscaling features, utilizing
+              the
+              processing power of GeForce RTX 50 Series graphics cards and their fifth-generation Tensor Cores. When
+              using
+              DLSS
+              on GeForce RTX hardware, gamers benefit from cloud-based AI supercomputing that continuously optimizes
+              their
+              gaming performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="border-1 opacity-75 my-5">
+
     <div class="row">
       <div class="col">
         <div class="container">
-          <p class="dlss-desc mx-auto mb-3 px-3">
-            DLSS represents an innovative collection of AI-powered graphics technologies designed to increase frame
-            rates,
-            minimize input delay, and enhance visual fidelity. The newest version, DLSS 4, introduces advanced
-            multi-frame
-            generation capabilities alongside improved ray tracing reconstruction and upscaling features, utilizing the
-            processing power of GeForce RTX 50 Series graphics cards and their fifth-generation Tensor Cores. When using
-            DLSS
-            on GeForce RTX hardware, gamers benefit from cloud-based AI supercomputing that continuously optimizes their
-            gaming performance.
-          </p>
+          <h3 class="mt-5 device-reqcom">Device Requirements and Compatibility</h3>
+          <ul class="my-5 req-list">
+            <li class="my-2 spec-list"><strong>Motherboard</strong>: The RTX 5090 is backwards compatible with older PCIe
+              generations (3.0,
+              4.0),
+              but a modern
+              motherboard with a <strong>5.0 slot is best</strong> for maximizing performance.
+            </li>
+            <li class="my-2 spec-list"><strong>CPU</strong>: While technically compatible with older CPUs, a high-end CPU is
+              recommended to
+              avoid
+              a bottleneck.
+              This is especially important at lower resolutions or high refresh rates, though a powerful CPU won't be
+              a
+              bottleneck at 4K with all settings maxed out.
+            </li>
+            <li class="my-2 spec-list">
+              <strong>Drivers</strong>:Keeping the graphics drivers up to date is essential for optimal performance
+              and
+              compatibility
+              with
+              the latest games and applications.
+            </li>
+            <li class="my-2 spec-list">
+              <strong>System</strong> : The RTX 5090 is compatible with <strong>Windows 10 and later
+                versions</strong>,
+              as
+              well as various Linux
+              distributions that support NVIDIA drivers.
+            </li>
+            <li class="my-2 spec-list">
+              <strong>Monitor</strong>: To fully utilize the RTX 5090's capabilities, a high-resolution monitor
+              <strong>(1440p or
+                4K)</strong> with a high
+              refresh rate is recommended for the best gaming experience.
+            </li>
+            <li class="my-2 spec-list">
+              <strong>Cooling</strong>: The RTX 5090 generates significant heat, so a well-ventilated case with good
+              airflow and possibly
+              additional cooling solutions is important to maintain optimal performance and longevity of the card.
+            </li>
+            <li class="my-2 mb-5 spec-list">The RTX 5090 is a high-power card, and a modern, high-wattage PSU is crucial. NVIDIA
+              recommends a
+              minimum
+              wattage of <strong>around 575W or higher</strong>, so it's best to have a powerful PSU with some
+              headroom.
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
   </section>
-
-  <div class="row">
-    <div class="col mx-5 p-5">
-      <hr class="border-1 opacity-75 my-5">
-    </div>
   </div>
 
-  <div class="row">
-    <div class="col">
-      <div class="container">
-        <h3 class="mt-4">Device Requirements and Compatibility</h3>
-        <ul class="my-4">
-          <li><strong>Motherboard</strong>: The RTX 5090 is backwards compatible with older PCIe generations (3.0, 4.0),
-            but a modern
-            motherboard with a <strong>5.0 slot is best</strong> for maximizing performance.
-          </li>
-          <li><strong>CPU</strong>: While technically compatible with older CPUs, a high-end CPU is recommended to avoid
-            a bottleneck.
-            This is especially important at lower resolutions or high refresh rates, though a powerful CPU won't be a
-            bottleneck at 4K with all settings maxed out.
-          </li>
-          <li>
-            <strong>Drivers</strong>:Keeping the graphics drivers up to date is essential for optimal performance and
-            compatibility
-            with
-            the latest games and applications.
-          </li>
-          <li>
-            <strong>System</strong> : The RTX 5090 is compatible with <strong>Windows 10 and later versions</strong>, as
-            well as various Linux
-            distributions that support NVIDIA drivers.
-          </li>
-          <li>
-            <strong>Monitor</strong>: To fully utilize the RTX 5090's capabilities, a high-resolution monitor
-            <strong>(1440p or
-              4K)</strong> with a high
-            refresh rate is recommended for the best gaming experience.
-          </li>
-          <li>
-            <strong>Cooling</strong>: The RTX 5090 generates significant heat, so a well-ventilated case with good
-            airflow and possibly
-            additional cooling solutions is important to maintain optimal performance and longevity of the card.
-          </li>
-          <li>The RTX 5090 is a high-power card, and a modern, high-wattage PSU is crucial. NVIDIA recommends a minimum
-            wattage of <strong>around 575W or higher</strong>, so it's best to have a powerful PSU with some headroom.
-          </li>
-        </ul>
-      </div>
-    </div>
+<footer class="bg-dark text-center text-lg-start text-white">
+  <div class="text-center p-3">
+    © 2025 Marc Angelo Canillas. For Project Purposes.
   </div>
-  <footer class="bg-body-tertiary text-center text-lg-start mt-5">
-    <div class="text-center p-3">
-      © 2025 Marc Angelo Canillas. For Project Purposes.
-    </div>
+</footer>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
