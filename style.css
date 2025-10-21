@@ -240,3 +240,15 @@ body {
   color: #76b900;
 }
 
+.rtx-pic, .cores-pic {
+  max-height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .rtx-pic, .cores-pic {
+    max-height: 200px;
+  }
+}
+
